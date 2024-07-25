@@ -9,9 +9,11 @@
     font-size: 5vh;
     width:100vw;
     height:10vh;
+    margin-top:15vh;
     font-family: "Cardo", serif;
     font-weight: 100;
     text-transform: uppercase;
+    position:relative;
 }
 .announcement__text{
     display: flex;

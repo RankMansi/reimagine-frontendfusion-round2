@@ -3,12 +3,11 @@ import airjordan from './images/airjordan.png';
 import blackjordan from './images/image.png';
 import { motion } from 'framer-motion';
 import './Nike.css';
-
 const Nike = () => {
   const [hoveredCard, setHoveredCard] = useState(null);
 
   return (
-    <div className='w-full' style={{ backgroundColor: '#ffffffc8' }}>
+    <div className='w-full relative top-36' style={{ backgroundColor: '#e6e7e5' }}>
       <div className='w-full px-20 text-gray-500 font-font1 text-[10vh] ml-24'>NIKE NEW ARRIVALS</div>
       <div className='relative px-20'>
         <div className='cards w-full flex flex-row gap-10 mt-10 items-center justify-center'>

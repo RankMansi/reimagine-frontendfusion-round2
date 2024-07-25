@@ -1,26 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Grifinito L";
-}
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  background: #b3b3b3;
-  overflow: hidden;
-}
 
-main {
-  height: 100%;
-  width: 100vw;
-  display: flex;
-  overflow: hidden;
-}
 
 section {
+  font-family: "Grifinito L";
   width: 120vw;
   font-size: 3em;
   line-height: 1em;
@@ -52,8 +34,8 @@ section {
 }
 
 .block {
-  position: absolute;
-  top: 0;
+  position: relative;
+  top:0 ;
   left: 0;
   width: 4rem;
   height: 100%;

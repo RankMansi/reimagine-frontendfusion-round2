@@ -3,7 +3,7 @@ import './strip.css'
 import Marquee from 'react-fast-marquee'
 const strip = () => {
   return (
-    <div className='announcement'>
+    <div className='announcement '>
       <Marquee>
       <div className='announcemet-text text1'>
         <span>NIKE, Inc. is a team comprised</span>
