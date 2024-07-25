@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+.announcement{
+    background-color: rgba(94, 94, 94, 0.582);
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 5vh;
+    width:100vw;
+    height:10vh;
+    font-family: "Cardo", serif;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.announcement__text{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    justify-content:space-between;
+}
+.text1 span{
+    margin-right: 2rem;
+}
+.text2 span:not(:last-child){
+    margin-right: 2rem;
+}
+.text2 span:last-child{
+    margin-right: 1rem;
+}

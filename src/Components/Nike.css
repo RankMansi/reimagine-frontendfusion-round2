@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-custom-size {
+  font-size: 10vh; /* Adjust this value to your desired size */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Nike.css */
+.cardcontainer {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+.cardcontainer:hover {
+  transform: scale(1.05); /* Increase the size of the cardcontainer */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Optionally, adjust shadow on hover */
+}
+
+.card {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.font-increase {
+  transition: font-size 0.3s ease; /* Smooth transition for font size */
+}
+
+.cardcontainer:hover .card {
+  transform: scale(1.05); /* Slightly increase the size of the image */
+}
+
+.cardcontainer:hover .font-increase {
+  font-size: 1.25rem; /* Increase font size on hover */
+}
+
+/* Font-face for LilitaOne */
+@font-face {
+  font-family: 'LilitaOne';
+  src: url('./LilitaOne-Regular.ttf') format('truetype');
+}
+
+/* Custom styles for text */
+.text-dynamic {
+  font-family: 'LilitaOne', sans-serif;
+  font-size: 5rem; /* Adjust as needed */
+}
+
+.text-premium {
+  font-family: 'LilitaOne', sans-serif;
+  font-size: 5rem; /* Adjust as needed */
+}
+
+.drop {
+  width: 450px;
+  height: 450px;
+  position: absolute; /* Ensure it overlaps other content */
+  z-index: 10; /* Ensure it appears on top */
+  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.05),
+              25px 35px 20px rgba(0, 0, 0, 0.05),
+              25px 20px 20px rgba(0, 0, 0, 0.05),
+              inset 25px 30px 30px rgba(255, 255, 255, 0.9);
+  border-radius: 67% 33% 28% 72% / 59% 52% 48% 41%;
+  animation: slide1 7s ease-in-out infinite;
+}
+
+.drop-top {
+  top: 0; /* Align it to the top */
+  right: 80%; /* Center it horizontally */
+  transform: translateX(-50%); /* Adjust for horizontal centering */
+}
+
+.drop-bottom {
+  bottom: 0; /* Align it to the bottom */
+  left: 80%; /* Center it horizontally */
+  transform: translateX(-50%); /* Adjust for horizontal centering */
+}
+
+@keyframes slide1 {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(20px, 10px); }
+  50% { transform: translate(0, 40px); }
+  75% { transform: translate(-20px, 20px); }
+  100% { transform: translate(0, 0); }
+}
