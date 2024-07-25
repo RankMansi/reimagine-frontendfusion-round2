@@ -1,8 +1,8 @@
 import React from 'react';
-import NikeMetcon_1 from '../assets/1.jpeg';
-import NikeMetcon_2 from '../assets/2.jpeg';
-import NikeMetcon_3 from '../assets/3.jpeg';
-import NikeMetcon_4 from '../assets/4.jpeg';
+import NikeMetcon_1 from '../assets/NikeMetcon_1.png';
+import NikeMetcon_2 from '../assets/NikeMetcon_2.png';
+import NikeMetcon_3 from '../assets/NikeMetcon_3.png';
+import NikeMetcon_4 from '../assets/NikeMetcon_4.png';
 import './AllShoes.css'; // Import the custom CSS file
 
 const shoes = [
